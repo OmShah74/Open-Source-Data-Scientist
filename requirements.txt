@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+scikit-learn
+python-docx
+openpyxl
+agno
+google-generativeai

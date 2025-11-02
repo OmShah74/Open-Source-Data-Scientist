@@ -1,0 +1,118 @@
+# =============================================================================
+# General & OS-Specific
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Swap files
+*.swp
+*.swo
+
+# =============================================================================
+# IDE & Editor Configuration
+# =============================================================================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+
+# =============================================================================
+# Backend (Python / FastAPI)
+# =============================================================================
+
+# Virtual Environment
+# This is crucial to ignore as it contains machine-specific packages
+venv/
+*.venv/
+env/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+sdist/
+wheel/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# IPython/Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# =============================================================================
+# Frontend (Node.js / Next.js)
+# =============================================================================
+
+# Dependencies
+# This is the most important one for any Node project
+node_modules/
+
+# Build directory
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js generated files
+.pnp/
+.pnp.js
+
+# =============================================================================
+# Secrets & Environment Variables
+# =============================================================================
+
+# Environment variables for both backend and frontend
+# Never commit your API keys or other secrets!
+.env
+.env*
+!*.env.example
+
+# Specifically for Next.js local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =============================================================================
+# Heavy Data & Uploaded Files (Optional)
+# =============================================================================
+
+# Ignore common data file formats that might be used for testing.
+# If you have small example datasets that should be in the repo,
+# you can specifically un-ignore them, e.g., !data/example.csv
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.json
+*.xml
+
+# A directory for user-uploaded files, if you save them temporarily
+uploads/
